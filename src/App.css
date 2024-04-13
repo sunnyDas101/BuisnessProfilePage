@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+button.md\:active {
+  background: linear-gradient(
+    to right,
+    hsla(200, 74%, 50%, 0.727),
+    hsl(196, 88%, 51%)
+  );
+  color: #fff;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.smActive {
+  background: linear-gradient(
+    to right,
+    hsla(200, 74%, 50%, 0.727),
+    hsl(196, 88%, 51%)
+  );
+  width: 100%;
+  color: #fff;
+}
+
+.button.active.no-border-radius {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+button.active span {
+  background-color: #fff;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+button.zero-border {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: none;
+  background: linear-gradient(
+    to right,
+    hsla(200, 77%, 49%, 0.727),
+    hsl(196, 73%, 60%)
+  );
+}
+
+.showInfo-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid black;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
